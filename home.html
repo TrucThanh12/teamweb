@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT PTIT</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family:  sans-serif;
+        }
+        header{
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h2{
+            margin-left: 50px;
+        }
+        header a{
+            margin-right: 100px;
+            text-decoration: none;
+
+        }
+        .main{
+            margin: 30px 30px 0px 250px; 
+            width: 1350px;
+            height: 700px; 
+            background-color:lightblue;
+            text-align: center;
+        }
+        
+        .teams{
+            display: flex;
+            margin-left: 8px;
+            align-items: center;
+        }
+        .team{
+            width: 420px;
+            height: 100px;
+            margin-left: 5px;
+            margin-bottom: 210px;
+            margin-top: 10px;
+            padding: 10px;
+            /* box-shadow: 0px 0px 10px black; */
+        }
+        /* #img{
+            box-shadow: 1000px 1000px 1000px 1000px black;
+            -moz-box-shadow: 1000px 1000px 1000px 1000px black;
+            -webkit-box-shadow: 1000px 1000px 1000px 1000px black;
+        } */
+        @media screen and (max-width: 1000px){
+            .teams{
+                display: block;
+            }
+            .team{
+                padding: 20px;
+                width: 90%;
+            }
+            .main{
+                height: 1800px;
+                width: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>ITPTIT</h2>
+        <nav>
+            <a href="">Trang chủ</a>
+            <a href="">Giới thiệu</a>
+            <a href="">Thành tích</a>
+            <a href="">Sự Kiện</a>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="teams">
+            <div class="team">
+                <div class="image">
+                    <img src="https://lh3.googleusercontent.com/sZrM8dznHzKKnIkoW784ZJ6H9us6_SAikXnGGA_D6TPDPPHaQpauCr30odJEvNUKDWKFwx1goX77DRQ=w1859-h899" style="width: 100%;">
+                    <h3>Team 1</h3>
+                </div>
+            </div>
+            <div class="team">
+                <div class="image">
+                    <img src="https://lh3.googleusercontent.com/h028VqDdjpNqL22w2vwtY1QdHEt1SAQPkuJxIhaiQ0g3tKH2fHa8YA2fFQ5tPcQ-1Nkyg2KrvexAL88=w1859-h899" style="width: 100%;">
+                    <h3>Team 2</h3>
+                </div>
+            </div>
+            <div class="team">
+                <div class="image">
+                    <img src="https://lh3.googleusercontent.com/4ks0sZi6qGxmLejhqpTajjoDguuj7V2pE_B_Q6jtNiz9yjnqPcMxVeoZWmCYkZUldCwHkh6vjqrtNgY=w1859-h899" style="width: 100%;">
+                    <h3>Team 3</h3>
+                </div>
+            </div>
+        </div>
+        <div class="teams">
+            <div class="team">
+                <div class="image">
+                    <img src="https://lh3.googleusercontent.com/364rNl42ZiNv9TZrGQ6x5WjDrY_5wO5_hkz6-JCh88fAHgporF6gYWjmzbO5TxJfRmIexu_gCS76w4Y=w1859-h899" style="width: 100%;">
+                    <h3>Team 4</h3>
+                </div>
+            </div>
+            <div class="team">
+                <div class="image">
+                    <img src="https://lh3.googleusercontent.com/4uId8PSxQkUWPeYtQH93_8bIchYo4U59HD8-w6UgCOCSVVkVpY92fTkKDzwievfKRac4iDglaHnr_Pg=w1859-h899" style="width: 100%;">
+                    <h3>Team 5</h3>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
